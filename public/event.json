@@ -1,0 +1,48 @@
+[
+    {
+      "_id": "1",
+      "image": "https://imagizer.imageshack.com/img922/3589/Y5tOS9.jpg",
+      "title": "Learn Driving Car",
+      "price": 200,
+      "details": "Learning how to drive is a lot easier than it looks. It looks intimidating from the passenger's seat, or in films, but once you get behind the wheel and gently put your foot on the pedal, the process becomes very intuitive. Learn to take things slow in the beginning and you'll be well on your way to mastering the basics. This article assumes you'll be driving a vehicle with an automatic transmission. If you're not driving an automatic, you'll need to read about the basics of driving stick-shift (manual transmission) instead, although the general process will still be similar. "
+    },
+    {
+      "_id": "2",
+      "image": "https://imagizer.imageshack.com/img922/8259/vhtl9T.jpg",
+      "title": "Touch to Technology",
+      "price": 300,
+      "details": "Touch screen technology is the direct manipulation type of gesture-based technology. Direct manipulation is the ability to manipulate the digital world inside a screen. A Touch screen is an electronic visual display capable of detecting and locating a touch over its display area. This is generally referred to as touching the display of the device with a finger or hand. This technology most widely used in computers, user interactive machines, smartphones, tablets, etc to replace most functions of the mouse and keyboard.Touch screen technology has been around for a number of years but advanced touch screen technology has come on in leaps and bounds recently. Companies are including this technology in more of their products. The three most common touch screen technologies include resistive, capacitive, and SAW (surface acoustic wave)."
+    },
+
+    {
+      "_id": "3",
+      "image": "https://imagizer.imageshack.com/img923/9836/IQZDUy.jpg",
+      "title": "Financial freedom",
+      "price": 450,
+      "details": "Attaining financial freedom is an objective for most individuals. Financial freedom usually means having enough savings, financial investments, and cash on hand to afford the kind of life we desire for ourselves and our families. It means growing savings that enable us to retire or pursue the career we want without being driven by earning a set salary each year. Financial freedom means our money is working for us rather than the other way around.How do you become financially free?To become financially free, you must pay off your consumer debts, build a safety net of savings funds, and create enough passive income through investing or business ownership to pay for your current and expected future living expenses. We are burdened with increasing debt, monetary emergencies, excessive consumer spending, and other problems that keep us from reaching our most meaningful financial objectives. Such challenges confront everybody, but the following twelve habits can put you on the ideal path to financial wellness."
+     },
+    {
+      "_id": "4",
+      "image": "https://imagizer.imageshack.com/img924/1259/WSADIx.jpg",
+      "title": "Public Speaking",
+      "price": 220,
+      "details": "Most job roles and industries require public speaking skills to communicate and engage with team members and audiences confidently. Strong public speaking skills increase your chances of getting hired for a new job and becoming a more effective employee at the workplace. Thankfully, you can improve these skills through practice. In fact, public speaking is one of the top communication skills employers look for in a potential candidate. In this article, we will explain what public speaking skills are, their types, how to improve your public speaking and how to highlight these skills during the hiring process."
+    },
+
+    {
+      "_id": "5",
+      "image": "https://imagizer.imageshack.com/img923/3931/PGD52h.jpg",
+      "title": "Learn Basic computer ",
+      "price": 180,
+      "details": "Computers can be intimidating, especially if you didn't grow up with them. Some tasks that seem simple to experienced users can seem impossible to new users. We just released a computer and technology basics course on the freeCodeCamp.org YouTube channel. This course teaches the basics of computer use and is perfect for beginners and people that want to fill in some gaps on their knowledge. The Goodwill Community Foundation developed this course. For almost 20 years, their GCFLearnFree.org program has helped millions around the world learn the essential skills they need to live and work in the 21st century."
+    },
+    {
+      "_id": "6",
+      "image": " https://imagizer.imageshack.com/img923/9562/86uvX3.jpg",
+      "title": "Learn Driving Motorcycle",
+      "price": 230,
+      "details": "Learning to ride a motorcycle can be fun. The best way to learn how to properly ride is in a safe and controlled manner. Always practice safety first and be sure you have appropriate safety gear for the type of riding you will do. Beginners can enroll in motorcycle safety courses that give you the tools to be a proper rider."
+    }
+
+
+  ]
