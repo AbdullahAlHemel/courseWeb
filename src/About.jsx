@@ -2,12 +2,12 @@ import React from 'react';
 import Wthus from './pages/Home/Wthus';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import {useEffect } from 'react';
 
 const About = () => {
     useEffect(() => {
         AOS.init({duration:"1100"})
-       })
+        })
     
     return (
         <>
@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div data-aos="zoom-in-up"><Wthus></Wthus></div>
         </>
-    );
+     );
 };
 
 export default About;
