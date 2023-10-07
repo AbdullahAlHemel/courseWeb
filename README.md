@@ -1,8 +1,7 @@
-# React + Vite
+In this website you can you develop your skill and grow up your needs.here the five points:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Six important courses help to develop our everyday lifeStyle and survival power, this courses shows in box with six different box.
+2. Limited price set because anybody can buy this courses and develop this skill according to his needs.
+3. Every card box has different route where details information is available, then image, price and name also added.
+4. Daily Life Hacks are available in those courses, which is need for everybody in every where.
+5. Make colorful, animated and shortcut which save time and show information, anybody can visit to know those information from every place.
