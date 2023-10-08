@@ -4,7 +4,7 @@ import Home from "../pages/Home/Home";
 import Roots from "../layouts/Roots";
 import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
-import News from "../pages/Home/News";
+import Course from "../pages/Home/Course";
 import PrivateRoute from "./PrivateRoute";
 import About from "../About";
 import ErrorPage from "../ErrorPage";
@@ -25,8 +25,8 @@ const router = createBrowserRouter([
                 loader: () => fetch('/event.json')
             },
             {
-                path:'/news/:id',
-                element: <PrivateRoute><News></News></PrivateRoute>,
+                path:'/Course/:id',
+                element: <PrivateRoute><Course></Course></PrivateRoute>,
                 loader: () => fetch('/event.json')
                 
             },

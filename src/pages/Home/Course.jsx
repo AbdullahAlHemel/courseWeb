@@ -1,11 +1,8 @@
 
-import Header from '../Home/Home';
 import { useParams } from 'react-router-dom';
-import RightSideNav from '../../shared/Navbar/RightSideNav';
-import Navbar from '../../shared/Navbar/Navbar';
 import coin from '../../../src/assets/assets/coins.jpg'
 
-const News = () => {
+const Course = () => {
     
      const {id,image} = useParams()
 
@@ -30,7 +27,7 @@ const News = () => {
     );
 };
 
-export default News;
+export default Course;
 
 
 

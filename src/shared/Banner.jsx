@@ -1,7 +1,4 @@
-import logo from '../assets/assets/logo.png'
 import banner from "../assets/assets/banner.jpg"
-
-
 
 const Banner = () => {
     return (
@@ -13,8 +10,7 @@ const Banner = () => {
                 <div>
                     <img className='w-[100%]' src={banner} alt="" />
                 </div>
-        </div>
-       
+        </div>      
         </>
     );
 };  

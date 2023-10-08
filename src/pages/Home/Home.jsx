@@ -1,7 +1,6 @@
 import React from 'react';
-import RightSideNav from '../../shared/Navbar/RightSideNav';
 import { useLoaderData } from 'react-router-dom';
-import NewsCard from './NewsCard';
+import CourseCard from './CourseCard';
 import Banner from '../../shared/Banner';
 import Wthus from './Wthus';
 import BgPhotoSec from './bgPhotoSec';
@@ -27,17 +26,13 @@ const Home = () => {
                  
                  <div data-aos="fade-right"><Banner></Banner></div> 
   
-                {/* news */}
+                {/* CourseCard */}
                 <div data-aos="zoom-in-up" className=' p-1 grid grid-cols-1 lg:grid-cols-3 gap-6 '>
-                    {news.map(aNews => <NewsCard
-                     key={aNews._id}
-                     news ={aNews}>
-                     </NewsCard>)}
+                    {news.map(C => <CourseCard
+                     key={C._id}
+                     course ={C}>
+                     </CourseCard>)}
                 </div> 
-
-                {/* <div className='border p-1'>
-                    <RightSideNav></RightSideNav>
-                </div> */}
 
               <div data-aos="fade-left"> <Wthus></Wthus></div>
                <div data-aos="fade-up" data-aos-duration="3000"> <BgPhotoSec></BgPhotoSec></div>

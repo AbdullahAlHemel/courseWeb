@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-import userDefaultPic from "../../assets/assets/user.png"
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
 
