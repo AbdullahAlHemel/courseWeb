@@ -3,7 +3,15 @@ import { useContext } from 'react';
 import { AuthContext } from '../../providers/AuthProviders';
 import swal from 'sweetalert'
 import { FaGoogle } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect } from 'react';
+
 const Login = () => {
+
+  useEffect(() => {
+    AOS.init({duration:"1100"})
+    })
 
     const {signIn, signInWithGoogle} = useContext(AuthContext)
     const location = useLocation(); 
@@ -51,8 +59,8 @@ const Login = () => {
     return (
         <div>
             
-            <div className="hero pt-16 border-t mb-36">
-    <div className="md:w-3/4 lg:w-1/2 mx-auto">
+            <div className="hero pt-4 border-t mb-16">
+    <div data-aos="zoom-in" className="md:w-3/4 lg:w-1/2 mx-auto border px-5 rounded py-8">
         <h2 className='text-center text-3xl font-semibold text-gray-600'>Login now</h2>
       <form onSubmit={handleLogin} className="card-body">
         <div className="form-control">
@@ -75,8 +83,8 @@ const Login = () => {
         </div>
       </form>
        <p className='text-center'>Don't have a account? <Link to='/register' className='underline text-blue-700 font-semibold'>Register</Link></p>
-       <h1 className='text-center my-4 text-[20px] text-pink-500'>Login With</h1>
-       <button onClick={handleGoogleSignIn} className='flex rounded text-2xl font-semibold w-[200px] md:mx-[100px] md:px-[120px] bg-blue-200 p-2  md:w-[400px] border text-green-700'>
+       <h1 className='ml-[100px] mt-4 text-[18px]] text-pink-500'>Login With</h1>
+       <button onClick={handleGoogleSignIn} className='flex rounded text-2xl font-semibold w-[200px] md:mx-[80px] border-blue-400 md:px-[120px] bg-blue-200 p-2  md:w-[400px] border text-green-700'>
         <FaGoogle className='mr-3'/>
         Google</button>
 

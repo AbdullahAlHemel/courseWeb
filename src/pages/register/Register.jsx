@@ -4,9 +4,17 @@ import { useContext } from 'react';
 import { AuthContext } from '../../providers/AuthProviders';
 import swal from 'sweetalert'
 import { useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect } from 'react';
+
 
 const Register = () => {
   const [registerError, setRegisterError]  = useState('');
+
+  useEffect(() => {
+    AOS.init({duration:"1100"})
+    })
 
     const {createUser} = useContext(AuthContext)
 
@@ -26,6 +34,7 @@ const Register = () => {
         .then(result => {
           console.log(result.user);
           e.target.reset();
+          return
         })
         .catch(error => {
           return swal({
@@ -56,9 +65,9 @@ const Register = () => {
         }
         
     return (
-        <div>
+        <div className='border-t pt-16  mb-36'>
         
-        <div className="hero pt-16 border-t mb-36">
+        <div data-aos="flip-down" className="hero ">
 
 <div className="md:w-3/4 lg:w-1/2 mx-auto">
 <h2 className='text-center text-3xl font-semibold text-blue-700'>Register now</h2>
